@@ -1,19 +1,26 @@
+#!/usr/bin/python
 import csv
 import random
 import os
+import sys
 
 total_questions = 0
 testing = True
 current_answer = ''
+try:
+	question_file = str(sys.argv[1])
+except:
+	print("usage: quiz.py [question-file]")
+	sys.exit()
 
-questions = csv.DictReader(open("questions.csv"))
+questions = csv.DictReader(open(question_file))
 
 for question in questions:
 	total_questions += 1
 	
 while testing:
 	os.system('clear')
-	questions = csv.DictReader(open("questions.csv"))
+	questions = csv.DictReader(open(question_file))
 	current_question = random.randrange(1,total_questions+1)
 	for question in questions:
 		if int(question["question_id"]) == current_question:
