@@ -1,0 +1,17 @@
+question_id,question,answer_a,answer_b,answer_c,answer_d,correct_answer
+1,"What man section covers Executable programs and shell commands?",1,2,3,4,A
+2,"What man section covers System calls provided by the kernel?",1,2,3,4,B
+3,"What man section covers Library calls provided by program libriaries?",1,3,5,9,B
+4,"What man section covers Device files?",2,7,4,9,C
+5,"What man section covers File formats?",1,8,2,5,D
+6,"What man section covers Games?",1,3,6,9,C
+7,"What man section covers Miscellaneous?",2,7,3,8,B
+8,"What man section covers System admin commands?",1,5,8,9,C
+9,"What man section covers Kernel routines?",1,6,2,9,D
+10,"What command reverses the order of the lines of a text file?",,,,,TAC
+11,"Type the command to combine two text files by matching the contents of specified fields within the files:",,,,,JOIN
+12,"What option for cat command numbers the lines?",-r,-n,-E,-x,B
+13,"What option for cat command numbers only non-blank lines?",-b,-T,-E,-r,A
+14,"What option for cat shows line endings?",-e,-r,-T,-E,D
+15,"What option for cat shows non printing characters?",-x,-r,-v,-E,C
+16,"What option for cat shows TABs?",-T,-e,-t,-E,A
