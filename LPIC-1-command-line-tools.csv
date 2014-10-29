@@ -15,3 +15,21 @@ question_id,question,answer_a,answer_b,answer_c,answer_d,correct_answer
 14,"What option for cat shows line endings?",-e,-r,-T,-E,D
 15,"What option for cat shows non printing characters?",-x,-r,-v,-E,C
 16,"What option for cat shows TABs?",-T,-e,-t,-E,A
+17,"What command merges files line by line?",,,,,paste
+18,"What command converts tabs to spaces?",,,,,expand
+19,"What command displays files in octal?",,,,,od
+20,"What command sorts a file?",,,,,sort
+21,"What sort option ignores case?",-a,-T,-F,-f,D
+22,"What sort option sorts by month?",-M,-m,-a,-f,A
+23,"What sort option does a numeric sort?",-x,-n,-N,-r,B
+24,"What sort option does a reverse sort?",-x,-n,-T,-r,D
+25,"What sort option sorts by field?",-T,-f,-k,-t,C
+26,"What command changes individual characters in a text file?",,,,,tr
+27,"What command converts spaces to tabs?",,,,,unexpand
+28,"What command deletes duplicate lines?",,,,,uniq
+29,"What command numbers lines?",,,,,nl
+30,"What sed command appends text to the file?",,,,,a
+31,"What sed command inserts text into the file?",,,,,i
+32,"What sed command appends text from filename into the file?",,,,,r
+33,"What sed command replaces text that matches a regular expression?",,,,,s
+
